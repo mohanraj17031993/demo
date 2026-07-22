@@ -1,1 +1,36 @@
-sample doc
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>This is a basic, clean HTML5 starter template.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About This Code</h2>
+            <p>You can use this template as a starting point for any web design project.</p>
+        </section>
+
+        <section>
+            <h2>Useful Elements Included:</h2>
+            <ul>
+                <li><strong>Semantic tags:</strong> Keeps the layout structural and accessible.</li>
+                <li><strong>Responsive setup:</strong> Prepared to fit mobile screen widths.</li>
+                <li><strong>Clean markup:</strong> Ready for custom CSS styling.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
