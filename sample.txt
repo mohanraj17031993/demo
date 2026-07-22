@@ -16,6 +16,7 @@
         <section>
             <h2>About This Code</h2>
             <p>You can use this template as a starting point for any web design project.</p>
+        </section>
         <section>
             <h2>Useful Elements Included:</h2>
             <ul>
