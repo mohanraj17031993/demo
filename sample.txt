@@ -9,7 +9,7 @@
 
     <header>
         <h1>Welcome to My Website</h1>
-        <p>This is a basic, clean HTML5 starter template.</p>
+        <p>This is a basic, clean HTML5 starter template.</p
     </header>
 
     <main>
