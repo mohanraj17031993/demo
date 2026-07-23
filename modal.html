@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Modal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-content {
+      background: #fff;
+      width: 400px;
+      margin: 10% auto;
+      padding: 20px;
+      border-radius: 8px;
+      position: relative;
+      text-align: center;
+    }
+
+    .close {
+      position: absolute;
+      right: 15px;
+      top: 10px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    button {
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="openModal()">Open Modal</button>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2>Modal Title</h2>
+      <p>This is a simple HTML modal popup.</p>
+      <button onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+ 
+
+</body>
+</html>
