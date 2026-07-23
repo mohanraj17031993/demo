@@ -12,7 +12,7 @@ class Modal {
   close(): void {
     this.modal.style.display = "none";
   }
-}
+
 
 const modal = new Modal("myModal");
 modal.open();
