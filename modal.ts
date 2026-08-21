@@ -1,4 +1,4 @@
-class Modal {
+class Popup {
   private modal: HTMLElement;
 
   constructor(id: string) {
