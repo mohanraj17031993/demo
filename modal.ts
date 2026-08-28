@@ -16,3 +16,5 @@ class Popup {
 
 const modal = new Modal("myModal");
 modal.open();
+}
+}
