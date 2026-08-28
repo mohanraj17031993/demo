@@ -18,3 +18,4 @@ const modal = new Modal("myModal");
 modal.open();
 }
 }
+}
